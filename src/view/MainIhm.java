@@ -31,7 +31,7 @@ public class MainIhm {
 	private JButton quitButton;
 	private MapView mapView;
 	
-	protected Model model;
+	public static Model model;
 	
 	public MainIhm() {
 		createModel();
